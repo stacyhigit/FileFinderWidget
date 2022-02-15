@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.FileFinderWidget.AppWidget.Container"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.FileFinderWidget.AppWidgetContainer"
+    tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/iv_background_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/app_widget_background"
+        android:contentDescription="@null" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/include_header"
+            layout="@layout/file_finder_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <RelativeLayout
+            android:id="@+id/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/include_header">
+
+            <LinearLayout
+                android:id="@+id/ll_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="All Files" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/ll_header"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/app_widget_foreground" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_file_row1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/layout_header">
+
+            <ImageView
+                android:id="@+id/iv_file_image1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/red_balloon_by_paul_klee" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_toEndOf="@+id/iv_file_image1"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_file_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Red-Balloon-Klee.jpg" />
+
+                <TextView
+                    android:id="@+id/tv_file_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feb 12, 2022 08:21 AM" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_line_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/layout_file_row1"
+            android:background="@drawable/app_widget_foreground" />
+
+        <RelativeLayout
+            android:id="@+id/layout_file_row2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_below="@+id/tv_line_1">
+            <ImageView
+                android:id="@+id/iv_file_image2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/what_a_wonderful_world" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_toEndOf="@+id/iv_file_image2"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_file_name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Louis Armstrong - What a Wonderful World.mp3 " />
+
+                <TextView
+                    android:id="@+id/tv_file_date2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feb 12, 2022 12:36 PM" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_line_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/layout_file_row2"
+            android:background="@drawable/app_widget_foreground" />
+
+        <RelativeLayout
+            android:id="@+id/layout_file_row3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_line_2">
+            <ImageView
+                android:id="@+id/iv_file_image3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_file_pdf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_toEndOf="@+id/iv_file_image3"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_file_name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Sample.pdf" />
+
+                <TextView
+                    android:id="@+id/tv_file_date3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feb 1, 2022 12:36 PM" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/layout_file_row3"
+            android:background="@drawable/app_widget_foreground" />
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_baseline_circle_24"
+            android:contentDescription="@string/refresh"
+            android:src="@drawable/ic_baseline_sync_24" />
+    </RelativeLayout>
+</FrameLayout>

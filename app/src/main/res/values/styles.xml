@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="Widget.FileFinderWidget.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Widget.FileFinderWidget.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+
+    <style name="AppTheme.Spinner" parent="android:Widget">
+        <item name="android:spinnerItemStyle">@style/TextViewSpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/TextViewSpinnerDropDownItem</item>
+        <!-- Override the dropdown item in support library -->
+        <item name="spinnerDropDownItemStyle">@style/TextViewSpinnerDropDownItem</item>
+    </style>
+
+    <style name="TextViewSpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="TextViewSpinnerDropDownItem" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+</resources>

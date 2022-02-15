@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.172" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable-v21/app_widget_blue_background.xml" value="0.172" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable-v21/app_widget_foreground.xml" value="0.125" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.125" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable-v21/color_control_normal_background.xml" value="0.125" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable-v24/ic_baseline_arrow_drop_down_24.xml" value="0.172" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable-v24/ic_baseline_sync_24.xml" value="0.1745" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2375" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/app_widget_background.xml" value="0.125" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/app_widget_color_control.xml" value="0.125" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/color_control_normal_background.xml" value="0.2375" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_all.xml" value="0.161" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.173" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_circle_24_inactive.xml" value="0.3255" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_document_24.xml" value="0.247" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_download_24.xml" value="0.161" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.247" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_music_24.xml" value="0.161" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_open_24.xml" value="0.195" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_pdf_24.xml" value="0.195" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.195" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_baseline_video_24.xml" value="0.161" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_file.xml" value="0.195" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_file_24.xml" value="0.195" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_file_pdf.xml" value="0.2375" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_image.xml" value="0.195" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_launcher_background.xml" value="0.172" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_music.xml" value="0.195" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_pdf.xml" value="0.195" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_select_all.xml" value="0.161" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_select_document_24.xml" value="0.161" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_select_download_24.xml" value="0.161" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_select_music_24.xml" value="0.161" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/drawable/ic_video.xml" value="0.173" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/layout/activity_file_detail.xml" value="0.27132867132867133" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/layout/activity_file_finder_configure.xml" value="0.33" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/layout/activity_main.xml" value="0.140625" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/layout/file_finder_header.xml" value="0.67" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/layout/file_finder_widget_preview.xml" value="0.3690773067331671" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/layout/file_finder_widget_provider.xml" value="0.32349841938883034" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/layout/file_row.xml" value="0.5" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2375" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2375" />
+        <entry key="..\:/Users/Stacy/AndroidStudioProjects/Sandbox/FileFinderWidget/app/src/main/res/xml/provider_paths.xml" value="0.15729166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

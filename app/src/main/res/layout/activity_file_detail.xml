@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp">
+
+        <ImageView
+            android:id="@+id/iv_file_detail"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="@string/file"
+            android:src="@drawable/ic_file" />
+
+        <LinearLayout
+            android:id="@+id/ll_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_file_detail"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_file_detail_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:drawablePadding="6dp"
+                android:text="@string/open"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:drawableTopCompat="@drawable/ic_baseline_open_24" />
+
+            <TextView
+                android:id="@+id/tv_file_detail_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:drawablePadding="6dp"
+                android:text="@string/share"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:drawableTopCompat="@drawable/ic_baseline_share_24" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_file_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_actions"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:text="filename"
+            android:textIsSelectable="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_file_detail_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_file_detail_name"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            tools:text="/storage/emulated/0/My Documents/Over_the_Horizon.mp3"
+            android:textIsSelectable="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_file_detail_modified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_file_detail_path"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            tools:text="modified"
+            android:textIsSelectable="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_file_detail_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_file_detail_modified"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            tools:text="type"
+            android:textIsSelectable="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_file_detail_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_file_detail_type"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            tools:text="size"
+            android:layout_marginBottom="48dp"
+            android:textIsSelectable="true"
+            />
+    </RelativeLayout>
+
+</ScrollView>

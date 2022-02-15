@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="material_blue_100">#ffc6dafc</color>
+    <color name="material_blue_300">#ff7baaf7</color>
+    <color name="material_blue_500">#FF4285f4</color>
+    <color name="material_blue_700">#ff3367d6</color>
+    <color name="material_blue_A200">#ff448aff</color>
+    <color name="material_blue_A400">#ff2979ff</color>
+
+    <color name="material_blue_500_80">#804285f4</color>
+
+    <color name="material_teal_100">#ffb2ebf2</color>
+    <color name="material_teal_300">#ff4dd0e1</color>
+    <color name="material_teal_500">#ff00bcd4</color>
+    <color name="material_teal_700">#ff0097a7</color>
+    <color name="material_teal_A200">#ff18ffff</color>
+    <color name="material_teal_A400">#ff00e5ff</color>
+    <color name="material_dark_teal_A400">#ff009688</color>
+    <color name="default_color">?android:attr/colorControlNormal</color>
+</resources>

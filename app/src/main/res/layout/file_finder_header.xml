@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:gravity="center_horizontal" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/iv_all"
+            android:layout_width="@dimen/header_icon_size"
+            android:layout_height="@dimen/header_icon_size"
+            android:background="@drawable/ic_baseline_circle_24"
+            android:src="@drawable/ic_select_all"
+            android:contentDescription="@string/all_files" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"/>
+
+        <ImageView
+            android:id="@+id/iv_docs"
+            android:layout_width="@dimen/header_icon_size"
+            android:layout_height="@dimen/header_icon_size"
+            android:background="@drawable/ic_baseline_circle_24_inactive"
+            android:src="@drawable/ic_select_document_24"
+            android:contentDescription="@string/documents"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/iv_images"
+            android:layout_width="@dimen/header_icon_size"
+            android:layout_height="@dimen/header_icon_size"
+            android:background="@drawable/ic_baseline_circle_24_inactive"
+            android:src="@drawable/ic_select_image_24"
+            android:contentDescription="@string/images" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/iv_video"
+            android:layout_width="@dimen/header_icon_size"
+            android:layout_height="@dimen/header_icon_size"
+            android:background="@drawable/ic_baseline_circle_24_inactive"
+            android:src="@drawable/ic_select_video_24"
+            android:contentDescription="@string/videos" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/iv_music"
+            android:layout_width="@dimen/header_icon_size"
+            android:layout_height="@dimen/header_icon_size"
+            android:background="@drawable/ic_baseline_circle_24_inactive"
+            android:src="@drawable/ic_select_music_24"
+            android:contentDescription="@string/music" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/iv_downloads"
+            android:layout_width="@dimen/header_icon_size"
+            android:layout_height="@dimen/header_icon_size"
+            android:background="@drawable/ic_baseline_circle_24_inactive"
+            android:src="@drawable/ic_select_download_24"
+            android:contentDescription="@string/downloads" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"/>
+
+</LinearLayout>

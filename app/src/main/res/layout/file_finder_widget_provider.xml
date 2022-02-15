@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.FileFinderWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.FileFinderWidget.AppWidgetContainer">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/include_header"
+        layout="@layout/file_finder_header"
+        android:layout_marginBottom="4dp"/>
+
+    <ListView
+        android:id="@+id/lv_files"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/include_header"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/app_widget_foreground"
+        android:dividerHeight="1dp"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/tv_files_empty_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/loading"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/pb_refresh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_refresh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/ic_baseline_circle_24"
+        android:contentDescription="@string/refresh"
+        android:src="@drawable/ic_baseline_sync_24" />
+</RelativeLayout>

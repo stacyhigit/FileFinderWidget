@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileFinderConfigureActivity">
+
+    <TextView
+        android:id="@+id/tv_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@color/material_blue_700"
+        android:textColor="@color/white"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:text="@string/settings_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/tv_num_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_settings"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="24dp"
+        android:layout_toStartOf="@id/fl_spinner_files"
+        android:text="@string/number_of_files_to_display"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:id="@+id/fl_spinner_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_settings"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="18dp">
+
+        <Spinner
+            android:id="@+id/spinner_files_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:entries="@array/display_numbers"
+            android:minWidth="100dp"
+            android:paddingEnd="30dp"
+            android:spinnerMode="dropdown"
+            android:theme="@style/AppTheme.Spinner"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:contentDescription="@string/arrow_down"
+            android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+    </FrameLayout>
+
+    <Switch
+        android:id="@+id/switch_exclude_system_files"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_spinner_files"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:checked="true"
+        android:text="@string/exclude_system_files"
+        android:textSize="16sp"
+        android:textColor="?attr/colorControlNormal"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_exclude_system_files"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="18dp"
+        android:backgroundTint="@color/material_blue_700"
+        android:text="@string/done"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.stacyhi.filefinderwidget.FileFinderConfigureActivity"
+    android:widgetFeatures="reconfigurable"
+    android:description="@string/app_widget_description"
+    android:initialKeyguardLayout="@layout/file_finder_widget_provider"
+    android:initialLayout="@layout/file_finder_widget_provider"
+    android:minWidth="203dp"
+    android:minHeight="110dp"
+    android:previewImage="@drawable/file_finder"
+    android:previewLayout="@layout/file_finder_widget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen" />
